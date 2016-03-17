@@ -1,5 +1,9 @@
 <html>
+			<!--@author: adwoba.bota
+					This is the interface code for user login-->
+			
 	<head>
+			<!--list of various styles that will be used in the implementation of the code -->  
 		<style>
 
 			.body{
@@ -32,10 +36,18 @@
 				</div>
 				
 				<div class="body">
-				<img src="login.jpg" style="width:100px;height:100px; position:absolute; left:100px; top:100px; align:middle">
-				</img>
+					<img src="login.jpg" style="width:100px;height:100px; position:absolute; left:100px; top:100px; align:middle">
+					</img>
 				</div>
 				
 				<!--form-->
+				<form action=""method="GET">
+					<div class="wrapper">
+						<div>Username:<input type="text" name="username"value="<?php echo 'username'?>"/></div>
+						<div>Password:<input type="text" name="password"value="<?php echo 'password'?>"/></div>
+						<div class="header"><input type="submit"value="submit"></div>
+					</div>
+				</form>
+			</body>
 				
 </html>				
