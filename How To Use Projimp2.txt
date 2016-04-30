@@ -1,0 +1,10 @@
+1. navigate to loginAjax.php file
+2. enter the following details
+
+for Admin:
+username: gloria.kuweke
+password: 1
+
+For User:
+username: ebenezer.dzobo
+password: eben
